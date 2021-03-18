@@ -2,68 +2,92 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title> Página Personal </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://www.fontzip.com/storage/2017/12/07/dk-millefeuille/webfonts/DK Millefeuille.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap" rel="stylesheet">
+	<title> HOJA DE VIDA </title>
 </head>
 <body>
-	<img height=200 width=1000 alt="Gatitos" src="img/Gatitos.jpg">
-	<h1 style="color:red";>Paula Valentina Rico Lindarte</h1>
-	<h2>Fecha de Nacimiento: 07/12/2003</h2>	
-	<p>Mi nombre es Paula Valentina, tengo 17 años, nací en San José de Cúcuta el 7 de diciembre de 2003 pero toda mi infancia la viví en un municipio de Norte de Santander llamado Bucarasica, del cual procede toda mi familia, allí pasé una infacnia sana y feliz. No practico ningún deporte y junto con mi familia he viajado mucho por Colombia pero aparte unicamente he visitado otro país, Venezuela (antes de laa presidencia de Nicólas Maduro).</p>
-	<p>Actualmente estoy en quinto semestre de la carrera, hasta el momento la carrera me ha gustado mucho, estoy segura que no erré al elegirla como profesión. Lo más complicado fue adaptarme a los cambios viniendo de un municipio muy pequeño. En 5 años me visiono graduada y comenzando con mi vida laboral pero sin dejar de lado seguir aprendiendo y estudiando.</p>
-	<h3>Mis Hobbies</h3>
-	<ul>
-		<li>Leer</li>
-		<li>Ver series</li>
-		<li>Programación Competitiva</li>
-	</ul>
-	<h3>Mis peliculas y series favoritas</h3>
-	<ul>
-		<li>Breaking Bad</li>
-		<li>The Good Doctor</li>
-		<li>Stranger Things</li>
-		<li>The Vampire Diaries</li>
-		<li>The Walking Dead</li>
-	</ul>
-	<h3>Mi canción favorita</h3>
-	<audio controls>
-		<source src="music/cancion.mp3" type="audio/mpeg">
-		<source src="music/cancion.ogg" type="audio/ogg">
-		<source src="music/cancion.wav" type="audio/wav">
-		Tu navegador no soporta este elemento.
-	</audio>
-	<h3>Mis materias favoritas</h3>
-	<table>
-		<tr>
-			<th>Materia</th>
-			<th>Nota</th>
-			<th>¿Por qué es de las favoritas?</th>
-		</tr>
-		<tr>
-			<td>Fundamentos de Programación</td>
-			<td>4.7</td>
-			<td>Porque fue la primera materia de programación que tuve</td>
-		</tr>
-		<tr>
-			<td>Física Mecánica</td>
-			<td>4.3</td>
-			<td>Porque fue la primera física que tuve y en ella me interesé más por los fenómenos físicos</td>
-		</tr>
-		<tr>
-			<td>Estructuras de Datos</td>
-			<td>4.2</td>
-			<td>Porque me pareció una materia muy interesante</td>
-		</tr>
-		<tr>
-			<td>Seminario Integrador I</td>
-			<td>4.5</td>
-			<td>Porque tuve la oportunidad de compactar los conocimientos adquiridos hasta ese momento</td>
-		</tr>
-		<tr>
-			<td>Ecuaciones Diferenciales</td>
-			<td>4.6</td>
-			<td>Porque las clases eran muy dinámicas e interesantes</td>
-		</tr>
-		</table><br>
-		<a href="contacto.html"> Contacto</a>
+	<header>
+		<div id="encabezado">
+			<h1 id="title">HOJA DE VIDA</h1>
+		</div>	
+	</header>
+	<aside>
+		<img id="perfil" src="img/dibujo.png">
+		<section id="listas">
+			<h3>Mis Hobbies</h3>
+			<ul>
+				<li>Leer</li>
+				<li>Ver series</li>
+				<li>Programación Competitiva</li>
+			</ul>
+			<h3>Mis peliculas y series favoritas</h3>
+			<ul>
+				<li>Breaking Bad</li>
+				<li>The Good Doctor</li>
+				<li>Stranger Things</li>
+				<li>The Vampire Diaries</li>
+				<li>The Walking Dead</li>
+			</ul>
+			<h3>Mi canción favorita</h3>
+			<audio controls>
+				<source src="music/cancion.mp3" type="audio/mpeg">
+				<source src="music/cancion.ogg" type="audio/ogg">
+				<source src="music/cancion.wav" type="audio/wav">
+				Tu navegador no soporta este elemento.
+			</audio>
+			<b> Stressed Out - Twenty One Pilots </b>
+		</section>
+	</aside>
+	<article>
+		<section id="info">
+			<h2>PAULA VALENTINA RICO LINDARTE</h2>
+			<h2>Fecha de Nacimiento: 07/12/2003</h2>
+			<a href="contacto.html"><button id="boton">Contáctame</button></a>
+		</section>
+		<section id="intro">
+			<p>Mi nombre es Paula Valentina, tengo 17 años, nací en San José de Cúcuta el 7 de diciembre de 2003 pero toda mi infancia la viví en un municipio de Norte de Santander llamado Bucarasica, del cual procede toda mi familia, allí pasé una infancia sana y feliz.Nunca fui buena en los deportes que incluyen objetos redondos y tampoco me interesé en ellos, a lo largo de mi vida sólo pratiqué voluntariamente ajedrez y patinaje. He tenido la oportunidad de viajar junto con mi familia a gran variedad de lugares en Colombia, pero aparte de mi país unicamente he visitado otro país, Venezuela (antes de la presidencia de Nicólas Maduro).</p><br>
+			<p>Actualmente curso quinto semestre de la carrera pero cuando ingresé en 2019 no sabía mucho de la carrera además de su pensum por esa razón me asustaba la idea de haber cometido un error al elegirla, sin embargo hasta el momento la carrera me ha gustado mucho y me siento conforme con mi decisión, estoy segura que no erré. Lo más complicado de la carrera, y vida universitaria en general, fue adaptarme a los cambios al venir de un municipio muy pequeño y alejado de la ciudad, también fue un reto aprender a programar completamente desde 0 pero por suerte tuve un excelente profesor con el que aprendí mucho y tomé amor por la programación. En 5 años me visiono con mi título de ingeniera y comenzando con mi vida laboral pero sin dejar aún lado el ampliar mis conocimientos aprendiendo y estudiando.</p>
+		</section>
+		<section id="table">
+			<h3>Mis materias favoritas</h3>
+			<table>
+				<tr>
+					<th>Materia</th>
+					<th>Nota</th>
+					<th>¿Por qué es de las favoritas?</th>
+				</tr>
+				<tr>
+					<td>Fundamentos de Programación</td>
+					<td>4.7</td>
+					<td>Porque fue la primera materia de programación que tuve y en ella fue donde realmente entendí de que trataba la carrera y comencé a amar la programación, después de esta materia decidí entrar al semillero de programación competitiva</td>
+				</tr>
+				<tr>
+					<td>Física Mecánica</td>
+					<td>4.3</td>
+					<td>Porque me gusta la física y esta fue la primera que pude ver, mi interes por la física aumento después</td>
+				</tr>
+				<tr>
+					<td>Estructuras de Datos</td>
+					<td>4.2</td>
+					<td>Porque aprendí muchas cosas útiles e interesantes además de que mejoré considerablemente mis habilidades de programación</td>
+				</tr>
+				<tr>
+					<td>Programación Orientada a Objetos II</td>
+					<td>4.4</td>
+					<td>Porque en ella realicé mi primer proyecto completo y pude consolidar los conocimientos que habia adquirido hasta entonces</td>
+				</tr>
+				<tr>
+					<td>Bases de datos</td>
+					<td>3.6</td>
+					<td>Porque aprendí a modelar, crear y gestionar una base de datos y el conocimiento que adquirí es muy importante para ser una programadora completo</td>
+				</tr>
+			</table>
+		</section>
+	</article>
 </body>
 </html>
